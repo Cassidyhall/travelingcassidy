@@ -1,0 +1,85 @@
+*{
+    /* border:  red 1px solid; */
+}
+
+
+.title {
+
+
+ 
+    text-align: center;
+
+    padding: 3rem;
+
+}
+#travel-page-title{
+    background-color: black;
+    color: white;
+}
+#pic-page-title{
+    background-color: cornflowerblue;
+    color: rgb(175, 172, 10);
+}
+
+#parent-title {
+    display: flex;
+    align-items: center;
+    background-color: black;
+
+    padding: 3rem;
+
+}
+
+#nav {
+    /* background-color: aqua; */
+
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: bisque;
+}
+
+#nav li {
+    list-style-type: none;
+}
+
+.travel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.travel h3 {}
+
+.travel ul li {
+    line-height: 2rem;
+}
+
+.image-wrapper {
+    margin: auto;
+    max-width: 50vw;
+    padding-bottom: 3rem;
+}
+
+.image-wrapper img {
+    width: 100%;
+    display: block;
+}
+
+.image-title {
+    text-align: center;
+}
+#lin-to a{
+    display: block;
+}
+#link-to{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  
+}
+.back-to-top{
+    text-align: center;
+    display: block;
+}
