@@ -12,10 +12,91 @@
     padding: 3rem;
 
 }
+#profile-section{
+    background-color: burlywood;
+    padding: 1rem;
+}
+#profile-section h1{ font-size: 3rem;}
 #travel-page-title{
     background-color: black;
     color: white;
 }
+#resume-article{
+    display: flex;
+    justify-content: space-around;
+}
+#resume-aside {
+    width: 15rem;  
+}
+#resume-aside div{
+    z-index: -1;
+    
+    width: 15rem;
+    background-color: turquoise;
+    height: 100vh;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+#experience-section{
+    background-color: beige;
+    padding: 1rem;
+}
+#education-section{
+    background-color: rgb(214, 214, 240);
+    padding: 1rem;
+}
+#education-section div div h1{
+    font-size: 2rem;
+    /* // text-align: center; */
+}
+#skills-section{
+    background-color: rgb(248, 229, 232) ;
+    padding: 1rem;
+}
+#interest-section{
+    background-color: rgb(235, 247, 218);
+    padding: 1rem;
+}
+
+#experience{
+    font-size: 3rem;
+    text-align: center;
+}
+.section-title{
+    font-size: 3rem;
+    text-align: center;
+}
+.resume {
+     display: flex;
+     max-width: 60vw;
+    justify-content: space-between ;
+    gap: 1rem; 
+}
+
+.resume > p{
+    color: orange;
+}
+.resume div h1{
+    font-size: 2rem;
+}
+
+.resume div p{
+    width: 80%;
+}
+#resume-aside{
+    ul{
+        li{
+            list-style-type: none;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+
+        }
+    }
+}
+
 #pic-page-title{
     background-color: cornflowerblue;
     color: rgb(175, 172, 10);
@@ -31,6 +112,7 @@
 }
 
 #nav {
+    z-index: 2;
     /* background-color: aqua; */
 
     display: flex;
